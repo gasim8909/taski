@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page with Sidebar and Navbar</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <div class="nav-icons">
+        <i class="material-icons">search</i>
+        <i class="material-icons">notifications</i>
+        <i class="material-icons">account_circle</i>
+    </div>
+</div>
+
+<!-- Sidebar -->
+<div class="sidebar">
+    <div class="logo-container">
+        <img src="path_to_your_logo.png" alt="App Logo" class="app-logo">
+    </div>
+    <ul>
+        <li>
+            <i class="material-icons">dashboard</i>
+            <span class="label">Dashboard</span>
+        </li>
+        <li>
+            <i class="material-icons">check_circle</i>
+            <span class="label">My Task</span>
+        </li>
+        <li>
+            <i class="material-icons">folder_open</i>
+            <span class="label">Projects</span>
+        </li>
+        <li>
+            <i class="material-icons">timeline</i>
+            <span class="label">Timeline</span>
+        </li>
+        <li>
+            <i class="material-icons">library_books</i>
+            <span class="label">Resources</span>
+        </li>
+        <li>
+            <i class="material-icons">settings</i>
+            <span class="label">Settings</span>
+        </li>
+    </ul>
+    <div class="mode-toggle" onclick="toggleMode()">
+        <i class="material-icons">brightness_6</i>
+    </div>
+</div>
+
+
+
+<!-- Main Content Area -->
+<div class="content">
+    <!-- Insert your main content here -->
+    <h1>Welcome</h1>
+    <p>This is the main content area of the website.</p>
+</div>
+
+</body>
+</html>
