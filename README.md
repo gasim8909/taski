@@ -1,2 +1,0 @@
-# taski
-Task Management Software 
